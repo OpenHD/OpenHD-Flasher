@@ -30,7 +30,7 @@ jobs:
           apt install -y git sudo   
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # Runs a set of commands using the runners shell
       - name: Build
